@@ -83,7 +83,7 @@ const AppHeader: React.FC = () => {
           </button>
 
           <Link href="/" className="lg:hidden dark:text-white text-black">
-          <div className="w-fit h-fit text-2xl font-bold">
+          <div className="w-fit h-fit text-sm xl:text-2xl font-bold">
              Scrubbe Dashboard
           </div>
             {/* <Image

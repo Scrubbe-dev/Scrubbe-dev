@@ -326,7 +326,7 @@ const AppSidebar: React.FC = () => {
         <Link href="/">
           {isExpanded || isHovered || isMobileOpen ? (
             <>
-          <div className="w-fit h-fit text-2xl dark:text-white text-black font-bold">
+          <div className="w-fit h-fit  text-sm xl:text-2xl dark:text-white text-black font-bold">
              Scrubbe Dashboard
           </div>
               {/* <Image
@@ -345,7 +345,7 @@ const AppSidebar: React.FC = () => {
               /> */}
             </>
           ) : (
-            <div className="w-fit h-fit text-2xl font-bold">
+            <div className="w-fit h-fit  text-sm xl:text-2xl font-bold">
             Scrubbe Dashboard
          </div>
           )}
