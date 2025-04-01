@@ -1,16 +1,8 @@
 "use client";
 import React from "react";
-// import Chart from "react-apexcharts";
-import { ApexOptions } from "apexcharts";
-import ChartTab from "../common/ChartTab";
-import dynamic from "next/dynamic";
 import BasicTableOne from "../tables/BasicTableOne";
 import Pagination from "../tables/Pagination";
 
-// Dynamically import the ReactApexChart component
-const ReactApexChart = dynamic(() => import("react-apexcharts"), {
-  ssr: false,
-});
 
 export default function TableCard() {
  
